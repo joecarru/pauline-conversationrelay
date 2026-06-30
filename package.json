@@ -1,0 +1,19 @@
+{
+  "name": "pauline-conversationrelay-server",
+  "version": "1.1.0",
+  "description": "Pauline Joseph ConversationRelay WebSocket Server — CAOS V1 ElevenLabs Test. Routes transcripts through existing Make.com webhook. Make.com remains AI orchestration layer.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@fastify/websocket": "^10.0.0",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
